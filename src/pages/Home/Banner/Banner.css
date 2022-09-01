@@ -1,0 +1,33 @@
+.home-banner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 0rem;
+}
+
+.home-banner .image {
+    flex: 1 1 35rem;
+}
+
+.home-banner .image img {
+    width: 100%;
+}
+
+.home-banner .content {
+    flex: 1 1 45rem;
+}
+
+.home-banner .content h3 {
+    font-size: 4.5rem;
+    color: var(--black);
+    line-height: 1.8;
+    text-shadow: var(--text-shadow);
+}
+
+.home-banner .content p {
+    font-size: 1.7rem;
+    color: var(--light-color);
+    line-height: 1.8;
+    padding: 1rem 0;
+}
