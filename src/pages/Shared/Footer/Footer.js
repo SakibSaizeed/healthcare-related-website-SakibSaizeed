@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 const Footer = () => {
-  let year = Date();
+  let year = new Date().getFullYear();
+
   return (
     <div>
       <section className="footer">
@@ -25,18 +26,6 @@ const Footer = () => {
               {" "}
               <i className="fas fa-chevron-right"></i> doctors{" "}
             </Link>
-            {/* <Link to="#">
-              {" "}
-              <i className="fas fa-chevron-right"></i> book{" "}
-            </Link>
-            <Link to="#">
-              {" "}
-              <i className="fas fa-chevron-right"></i> review{" "}
-            </Link>
-            <Link to="#">
-              {" "}
-              <i className="fas fa-chevron-right"></i> blogs{" "}
-            </Link> */}
           </div>
 
           <div className="box">
@@ -103,7 +92,7 @@ const Footer = () => {
         <br />
         <div className="credit">
           {" "}
-          Developed by <span>sakibSaizeed@{year}</span> | all rights reserved{" "}
+          <span>sakibSaizeed &copy; {year}</span> | all rights reserved{" "}
         </div>
       </section>
     </div>

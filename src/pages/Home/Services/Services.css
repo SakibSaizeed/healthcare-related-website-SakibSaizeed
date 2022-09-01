@@ -1,0 +1,9 @@
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+    background-color: honeydew;
+    margin: 20px 20px;
+    /* margin: 10px 20px 10px 20px; */
+}

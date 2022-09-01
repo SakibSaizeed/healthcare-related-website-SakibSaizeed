@@ -1,0 +1,8 @@
+.service-card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 0.4rem;
+    /* box-shadow: var(--box-shadow); */
+    border: var(--border);
+    padding: 0.5rem;
+}
