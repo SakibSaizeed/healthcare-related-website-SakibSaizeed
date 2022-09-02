@@ -10,6 +10,7 @@ import PageNotFound from "./pages/PageNotFound/PageNotFound";
 import Team from "./pages/Home/Team/Team";
 import Login from "./pages/Login/Login";
 import SignUp from "./pages/SignUp/SignUp";
+import DetailService from "./pages/Home/Service/DetailService/DetailService";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/home" element={<HomePage />}></Route>
         <Route path="/banner" element={<Banner />}></Route>
         <Route path="/services" element={<Services />}></Route>
+        <Route path="/service/:serviceId" element={<DetailService />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/team" element={<Team />}></Route>
         <Route path="/login" element={<Login />}></Route>
