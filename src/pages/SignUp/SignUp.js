@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import auth from "../../firebase/firebase.init";
 import "./SignUp.css";
 const SignUp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPass, setConfirmPass] = useState("");
+  const navigate = useNavigate();
   const [createUserWithEmailAndPassword, user, loading, error] =
     useCreateUserWithEmailAndPassword(auth);
   const handleSignUp = () => {
@@ -22,14 +23,10 @@ const SignUp = () => {
     );
   }
   if (loading) {
-    return <p>Loading...</p>;
+    return <h5 className="text-center text-success">Welcome To Medicare</h5>;
   }
   if (user) {
-    return (
-      <div>
-        <h1>Registered User: {user.user?.email}</h1>
-      </div>
-    );
+    navigate("/");
   }
 
   return (

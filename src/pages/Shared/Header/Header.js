@@ -7,6 +7,7 @@ import { Button } from "react-bootstrap";
 import { useAuthState } from "react-firebase-hooks/auth";
 const Header = () => {
   const navigate = useNavigate();
+
   const [user] = useAuthState(auth);
   const logoutMedicare = () => {
     signOut(auth).then(navigate("/home"));
