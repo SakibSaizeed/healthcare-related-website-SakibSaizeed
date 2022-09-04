@@ -35,12 +35,12 @@ const Login = () => {
   }
 
   const handleGoogle = () => {
-    signInWithGoogle(auth);
+    signInWithGoogle();
   };
   if (error1) {
     return (
       <div>
-        <p>Error: {error.message}</p>
+        <p>Error: {error1?.message}</p>
       </div>
     );
   }

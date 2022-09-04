@@ -23,9 +23,10 @@ const Header = () => {
         </Link>
 
         <nav className="navbar" style={{ textDecoration: "none" }}>
-          <Link to="/home">Home</Link>
-          <Link to="/services">Services</Link>
-          <Link to="/about">About Us</Link>
+          <Link to="/home" style={{ textDecoration: "none" }}>Home</Link>
+          <Link style={{ textDecoration: "none" }} to="/services">Services</Link>
+          <Link  style={{ textDecoration: "none" }}to="/about">About Us</Link>
+          <Link  style={{ textDecoration: "none" }}to="/doctors">Our Doctors</Link>
         </nav>
         {user ? (
           <button onClick={logoutMedicare} className="btn text-danger">

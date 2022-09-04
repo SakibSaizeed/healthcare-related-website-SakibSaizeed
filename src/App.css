@@ -4,9 +4,11 @@
     --red: red;
     --black: #444;
     --light-color: #555;
-    --box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
-    /* --text-shadow: 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.2); */
+    --block-orange: #e38826;
+    --block-cyan: #006970;
+    --box-shadow: 0.4rem 0.4rem 0.4rem rgba(22, 234, 174, 0.45);
     --border: 0.2rem solid var(--green);
+    /* --text-shadow: 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.2); */
 }
 
 * {

@@ -2,7 +2,7 @@
         "id": 1,
         "name": "DIAGNOSTIC",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "We provide diagnostic service. We have world class pathology lab with expert techncians ",
         "img": "https://i.ibb.co/dGDkr4v/1.jpg"
     },
     {
@@ -14,9 +14,9 @@
     },
     {
         "id": 3,
-        "name": "Medicine",
+        "name": "24/7 Pharmacy Service",
         "price": "150",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "We have 24/7 pharmacy service for you. around 100 senior pharmacy professionals and primarily focused on hospital care, Specialist Pharmacy Services (SPS)",
         "img": "https://i.ibb.co/Yh04YVw/3.jpg"
     },
     {
@@ -30,7 +30,7 @@
         "id": 5,
         "name": "Dental Care",
         "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "We provide Dental service for caring your smile",
         "img": "https://i.ibb.co/FgQ3jXp/5.jpg"
     },
     {

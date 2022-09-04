@@ -19,14 +19,14 @@
 }
 
 .home-banner .content h3 {
-    font-size: 4.5rem;
+    font-size: 3rem;
     color: var(--black);
-    line-height: 1.8;
+    line-height: 1.5;
     text-shadow: var(--text-shadow);
 }
 
 .home-banner .content p {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: var(--light-color);
     line-height: 1.8;
     padding: 1rem 0;
