@@ -3,19 +3,19 @@ import "./Header.css";
 import { Link, useNavigate } from "react-router-dom";
 import { signOut } from "firebase/auth";
 import auth from "../../../firebase/firebase.init";
-import { Button } from "react-bootstrap";
 import { useAuthState } from "react-firebase-hooks/auth";
+import { Navbar,Button } from "react-bootstrap";
 const Header = () => {
   const navigate = useNavigate();
 
   const [user] = useAuthState(auth);
   const logoutMedicare = () => {
-    signOut(auth).then(navigate("/home"));
+    signOut(auth).then(navigate("/"));
   };
 
   return (
     <div>
-      <header className="header">
+      <Navbar className="header" id="menu" fixed="top">
         <Link to="/" className="logo" style={{ textDecoration: "none" }}>
           {" "}
           <i className="fas fa-heartbeat"></i> Medi
@@ -23,21 +23,29 @@ const Header = () => {
         </Link>
 
         <nav className="navbar" style={{ textDecoration: "none" }}>
-          <Link to="/home" style={{ textDecoration: "none" }}>Home</Link>
-          <Link style={{ textDecoration: "none" }} to="/services">Services</Link>
-          <Link  style={{ textDecoration: "none" }}to="/about">About Us</Link>
-          <Link  style={{ textDecoration: "none" }}to="/doctors">Our Doctors</Link>
+          <Link to="/home" style={{ textDecoration: "none" }}>
+            Home
+          </Link>
+          <Link style={{ textDecoration: "none" }} to="/services">
+            Services
+          </Link>
+          <Link style={{ textDecoration: "none" }} to="/about">
+            About Us
+          </Link>
+          <Link style={{ textDecoration: "none" }} to="/doctors">
+            Our Doctors
+          </Link>
         </nav>
         {user ? (
-          <button onClick={logoutMedicare} className="btn text-danger">
+          <Button onClick={logoutMedicare} variant="outline-warning" >
             Log Out
-          </button>
+          </Button>
         ) : (
-          <Link className="btn" Link to="login">
+          <Link className="btn"  Link to="login">
             Login
           </Link>
         )}
-      </header>
+      </Navbar>
     </div>
   );
 };

@@ -4,9 +4,11 @@
     grid-gap: 20px;
     justify-items: center;
     margin: 20px 20px;
-  
 }
-/* On screens that are 600px or less, set the background color to olive */
+
+
+/* On screens that are 600px or less*/
+
 @media screen and (max-width: 600px) {
     .doctors-container {
         display: grid;
@@ -14,9 +16,7 @@
         grid-gap: 10px;
         justify-items: center;
         margin: 20px 20px;
-       
     }
-
     .doctor-card img {
         margin: 20px 30px;
         height: 15rem;
@@ -25,6 +25,4 @@
         object-fit: cover;
         box-shadow: 0 0 0 1rem rgba(255, 255, 255, 0.2);
     }
-    
-
-  }
+}

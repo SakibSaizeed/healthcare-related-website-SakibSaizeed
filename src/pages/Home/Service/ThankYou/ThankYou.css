@@ -1,10 +1,11 @@
 .terms {
     text-align: justify;
     overflow: hidden;
-    margin: 20px 20px;
+    margin: 20px 30px;
 }
 
 .terms-background {
-    background-image: url("../../../../assets/images/Medicare\ by\ SakibSaizeed.svg");
+    background-image: url("../../../../assets/images/medicalservices.svg");
     background-size: cover;
+    background-repeat: no-repeat;
 }

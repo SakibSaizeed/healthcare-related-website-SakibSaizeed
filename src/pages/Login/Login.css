@@ -1,0 +1,17 @@
+.btn-login{
+    margin:1rem 3rem;
+    padding: 0.4rem auto;
+    width: auto;
+    height:60%;
+}
+.login-btn {
+    border-radius: 4px;  
+    height: 30px;
+   
+  }
+  .fb-btn {
+    background-color: #4c69ba;
+  }
+  .gog-btn {
+    background-color: #fff;
+  }

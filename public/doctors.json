@@ -3,7 +3,7 @@
         "name": "Prof Ibne Sina",
         "price": "300",
         "speciality": "Neurology",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "degree": "MBBS (DMC), FCPS (Medicine), MD (Internal Medicine), FACP (USA)",
         "img": "https://i.ibb.co/d0hxj5W/doc-4.jpg"
     },
     {
@@ -11,14 +11,15 @@
         "name": "Prof. John Deo",
         "price": "100",
         "speciality": "ENT",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "degree": "MBBS, FCPS (Medicine), MRCP (UK)",
         "img": "https://i.ibb.co/8mW8jYD/doc-3.jpg"
     },
     {
         "id": 3,
         "name": "Prof. Ahmed",
         "price": "150",
-        "description": "We have 24/7 pharmacy service for you. around 100 senior pharmacy professionals and primarily focused on hospital care, Specialist Pharmacy Services (SPS), ...",
+        "speciality": "Medicine",
+        "degree": "MBBS, FCPS (Medicine), FRCP (Glasgow), FACP (USA)",
         "img": "https://i.ibb.co/6JbzcHV/doc-5.jpg"
     },
     {
@@ -26,21 +27,23 @@
         "name": "Dr. Yousuf Sakin",
         "price": "180",
         "speciality": "Dental",
-        "description": "autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "degree": "BDS, DU",
         "img": "https://i.ibb.co/Rv3NwKW/doc-2.jpg"
     },
     {
         "id": 5,
         "name": "Dr. Nilima",
         "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "speciality": "Rheumatology",
+        "degree": "MBBS, FCPS (Medicine), Fellow in Rheumatology (Singapore)",
         "img": "https://i.ibb.co/HX7mV6S/doc-1.jpg"
     },
     {
         "id": 6,
         "name": "Prof. Cristofer",
+        "speciality": "Cardiology Specialist",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "degree": "MBBS, MCPS, FCPS (Medicine), FACA (USA), FCCP (USA), FRCP (UK)",
         "img": "https://i.ibb.co/S3436kx/doc-6.jpg"
     }
 ]

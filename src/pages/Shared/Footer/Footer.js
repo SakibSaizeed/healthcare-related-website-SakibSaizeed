@@ -22,27 +22,27 @@ const Footer = () => {
               {" "}
               <i className="fas fa-chevron-right"></i> about{" "}
             </Link>
-            <Link to="/team">
+            <Link to="/doctors">
               {" "}
               <i className="fas fa-chevron-right"></i> doctors{" "}
             </Link>
           </div>
 
           <div className="box">
-            <h3>our services</h3>
-            <Link to="#">
+            <h3>Services</h3>
+            <Link to="services">
               {" "}
               <i className="fas fa-chevron-right"></i> dental care{" "}
             </Link>
-            <Link to="#">
+            <Link to="services">
               {" "}
-              <i className="fas fa-chevron-right"></i> message therapy{" "}
+              <i className="fas fa-chevron-right"></i> Emergency{" "}
             </Link>
-            <Link to="#">
+            <Link to="services">
               {" "}
               <i className="fas fa-chevron-right"></i> cardiology{" "}
             </Link>
-            <Link to="#">
+            <Link to="services">
               {" "}
               <i className="fas fa-chevron-right"></i> diagnosis{" "}
             </Link>
@@ -60,11 +60,11 @@ const Footer = () => {
             </Link>
             <Link to="#">
               {" "}
-              <i className="fas fa-envelope"></i> info@gmail.com{" "}
+              <i className="fas fa-envelope"></i>info@gmail.com{" "}
             </Link>
             <Link to="#">
               {" "}
-              <i className="fas fa-map-marker-alt"></i> Dhaka-1361{" "}
+              <i className="fas fa-map-marker-alt"></i>Dhaka-1200{" "}
             </Link>
           </div>
 
@@ -92,7 +92,14 @@ const Footer = () => {
         <br />
         <div className="credit">
           {" "}
-          <span>sakibSaizeed &copy; {year}</span> | all rights reserved{" "}
+          developed by{" "}
+          <span className="text-info">
+            <Link to="https://www.linkedin.com/in/sakibsaizeed/">
+              SakibSaizeed
+            </Link>{" "}
+            &copy; {year}
+          </span>{" "}
+          | all rights reserved{" "}
         </div>
       </section>
     </div>

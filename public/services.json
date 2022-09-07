@@ -1,43 +1,49 @@
 [{
         "id": 1,
-        "name": "DIAGNOSTIC",
+        "name": "Emergency Care",
         "price": "300",
-        "description": "We provide diagnostic service. We have world class pathology lab with expert techncians ",
-        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+        "type": "Emergency health helpline 16263",
+        "description": "ER is equipped with all lifesaving support for critically ill patients including ventilators, defibrillators and monitors. Emergency Room (ER) provides non-stop life-saving care 24 hours a day.",
+        "img": "https://i.ibb.co/V3PJdwJ/emergency.png"
     },
     {
         "id": 2,
-        "name": "Expert Doctors",
+        "name": "Cardiology Care",
+        "type": "world class cardiology department",
         "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/tY8dmnP/2.jpg"
+        "description": "we have been caring for the hearts of El Paso for over 30 years. Our cardiologists are all board-certified",
+        "img": "https://i.ibb.co/tDGjC81/cardio500.png"
     },
     {
         "id": 3,
         "name": "24/7 Pharmacy Service",
         "price": "150",
+        "type": "24/7 pharmacy service for you.",
         "description": "We have 24/7 pharmacy service for you. around 100 senior pharmacy professionals and primarily focused on hospital care, Specialist Pharmacy Services (SPS)",
-        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+        "img": "https://i.ibb.co/JQn7WDz/pharmacy.png"
     },
     {
         "id": 4,
-        "name": "Emergency Care",
+        "name": "Diagnostic",
+        "type": "world class pathology lab with expert",
         "price": "180",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
+        "description": "we have cost-effective, and high quality diagnostic care in safe and secure environments. It includes the clinical services of Pathology and Laboratory Medicine, Radiology, and Nuclear Medicine",
+        "img": "https://i.ibb.co/bP3tQF9/pathology.png"
     },
     {
         "id": 5,
         "name": "Dental Care",
+        "type": "A complete dental solution service",
         "price": "100",
         "description": "We provide Dental service for caring your smile",
-        "img": "https://i.ibb.co/FgQ3jXp/5.jpg"
+        "img": "https://i.ibb.co/QH1GC6S/dentalcare.png"
     },
     {
         "id": 6,
-        "name": "Neuro Treatment",
+        "name": "Neuro Care",
+        "type": "One Stop Comprehensive Neuro Solution",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": "https://i.ibb.co/zJy5ZDd/6.jpg"
+        "description": "Country's First centre of excellence, providing high quality personalized care through an eminent faculty of Neuro-medicine, Neuro-surgery, Neuro-anesthesia, Psychiatry, Radiology and Imaging along with Physical Medicine and Rehabilitation.",
+        "img": "https://i.ibb.co/G3N2Mvq/brain.png"
     }
 ]

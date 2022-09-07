@@ -4,6 +4,11 @@ import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { Link, useNavigate } from "react-router-dom";
 import auth from "../../firebase/firebase.init";
 import "./SignUp.css";
+import {
+  useSignInWithEmailAndPassword,
+  useSignInWithGoogle,
+} from "react-firebase-hooks/auth";
+// import google from "./../assets/images/banner/";
 const SignUp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -11,6 +16,7 @@ const SignUp = () => {
   const navigate = useNavigate();
   const [createUserWithEmailAndPassword, user, loading, error] =
     useCreateUserWithEmailAndPassword(auth);
+    const [signInWithGoogle, user1, loading1, error1] = useSignInWithGoogle(auth);
   const handleSignUp = () => {
     createUserWithEmailAndPassword(email, password, confirmPass);
   };
@@ -28,6 +34,22 @@ const SignUp = () => {
   if (user) {
     navigate("/");
   }
+  const handleGoogle = () => {
+    signInWithGoogle();
+  };
+  if (error1) {
+    return (
+      <div>
+        <h5 className="text-danger text-center">Error: {error1.message1}</h5>
+      </div>
+    );
+  }
+  if (loading1) {
+    return <p className="text-primary text-center">Loading...</p>;
+  }
+  // if (user1) {
+  //   navigate(from, { replace: true });
+  // }
 
   return (
     <div>
@@ -57,7 +79,7 @@ const SignUp = () => {
         </Form.Group>
         <Button
           onClick={() => handleSignUp(email, password, confirmPass)}
-          className="btn"
+          className="-login"
         >
           {" "}
           Sign Up
@@ -66,10 +88,10 @@ const SignUp = () => {
         <p className="text-info">
           Already have an account? <Link to="/login">Log in</Link>
         </p>
-        {/* <br />
-        <span className="text-center">Or</span>
-        <hr />
-        <Button onClick={() => handleGoogle()}>Login With Google</Button> */}
+        <Button variant="outline-success" size="sm" className="btn-login"
+           onClick={() => handleGoogle()}>
+        Login With Google
+        </Button>
       </Form>
     </div>
   );

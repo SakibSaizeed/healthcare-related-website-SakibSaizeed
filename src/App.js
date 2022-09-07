@@ -7,23 +7,25 @@ import Banner from "./pages/Home/Banner/Banner";
 import Footer from "./pages/Shared/Footer/Footer";
 import About from "./pages/Home/About/About";
 import PageNotFound from "./pages/PageNotFound/PageNotFound";
-import Team from "./pages/Home/Doctors/Doctors";
 import Login from "./pages/Login/Login";
 import SignUp from "./pages/SignUp/SignUp";
 import DetailService from "./pages/Home/Service/DetailService/DetailService";
 import RequireAuth from "./pages/Login/RequireAuth/RequireAuth";
 import Doctors from "./pages/Home/Doctors/Doctors";
-import ThankYou from "./pages/Home/Service/ThankYou/ThankYou"
+import ThankYou from "./pages/Home/Service/ThankYou/ThankYou";
+import DoctorProfile from "./pages/Home/Doctors/DoctorProfile/DoctorProfile";
+import Appointment from "./pages/Shared/Appointment/Appointment";
 function App() {
   return (
     <div className="App">
       <Header></Header>
       <Routes>
-        <Route path="/" element={<HomePage />}></Route>
+        <Route exact path="/" element={<HomePage />}></Route>
         <Route path="/home" element={<HomePage />}></Route>
         <Route path="/banner" element={<Banner />}></Route>
         <Route path="/services" element={<Services />}></Route>
         <Route
+          exact
           path="/service/:serviceId"
           element={
             <RequireAuth>
@@ -33,9 +35,20 @@ function App() {
         ></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/doctors" element={<Doctors />}></Route>
+        <Route
+          exact
+          path="/doctor/:doctorId"
+          element={
+            <RequireAuth>
+              <DoctorProfile />
+            </RequireAuth>
+          }
+        ></Route>
+
         <Route path="/login" element={<Login />}></Route>
         <Route path="/signup" element={<SignUp />}></Route>
-        <Route path="/thankyou" element={<ThankYou/>}></Route>
+        <Route path="/thankyou" element={<ThankYou />}></Route>
+        <Route path="/appointment" element={<Appointment />}></Route>
 
         <Route path="*" element={<PageNotFound />}></Route>
       </Routes>

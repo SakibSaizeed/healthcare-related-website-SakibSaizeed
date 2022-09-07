@@ -2,6 +2,9 @@
     position: relative;
     border-radius: 100%;
     text-align: center;
+    /* box-shadow: 3rem 4rem 30 1rem rgba(32, 71, 13, 0.9); */
+    /* box-shadow: 8px 8px 8px #faea10; */
+    filter: drop-shadow(4px 4px 4px #c7bcbc);
 }
 
 .doctor-card img {
@@ -10,5 +13,4 @@
     width: 15rem;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 0 0 1rem rgba(255, 255, 255, 0.2);
 }

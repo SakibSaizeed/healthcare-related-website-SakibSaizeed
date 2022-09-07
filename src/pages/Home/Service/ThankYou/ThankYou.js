@@ -14,14 +14,10 @@ function ThankYou() {
   };
   const handleShow = () => setShow(true);
   return (
-    <div className="text-center terms-background ">
-      <div>
+    <div className="terms-background ">
+      <div className="text-center">
         <h1>Our terms And Conditions</h1>
-        {/* <h4 className="terms">
-          A patient, his/her representatives/ attendant/ relative/ friend or
-          affiliates (“you” or “User”); or A user of the Website (“you” or
-          “User”).
-        </h4> */}
+
         <p className="terms">
           This Agreement applies to all services made available by medicare on
           the WebsiteThe Services may change from time to time, at the sole
@@ -37,11 +33,10 @@ function ThankYou() {
           Services.Your access to use of the Website and the Services will be
           solely at the discretion of medicare by the developer SakibSaizeed.
         </p>
+        <Button variant="success" className="btn" onClick={handleShow}>
+          Click To Confirm
+        </Button>
       </div>
-
-      <Button variant="primary" onClick={handleShow}>
-        Click To Confirm
-      </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
@@ -50,7 +45,7 @@ function ThankYou() {
         <Modal.Body>
           <h5>
             Thank you for being with{" "}
-            <a href="/home" className="text-success">
+            <a href="/home" className="text-danger">
               MediCare
             </a>
             . We will contact with you soon..{" "}

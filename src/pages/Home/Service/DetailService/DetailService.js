@@ -23,19 +23,19 @@ const DetailService = () => {
   display = services.find((d) => d.id === parseInt(serviceId));
 
   return (
-    <div className="component-container">
-      <Card className="text-center ">
-        <Card.Header>{display?.name}</Card.Header>
-        <Card.Body className="container-block block-1 ">
-          <Card.Title>
-            <img src={display?.img} alt="card-img" />
-          </Card.Title>
+    <div>
+      <Card className="component-container">
+        <Card.Img variant="top" src={display?.img} className="service-img" />
+        <Card.Body>
+          <Card.Title>{display?.name}</Card.Title>
+          <Card.Text>{display?.type}</Card.Text>
           <Card.Text>{display?.description}</Card.Text>
-          <Button variant="btn-card" onClick={handleBookService}>
-            Book Service
+          <Card.Text>Fees:{display?.price}$</Card.Text>
+
+          <Button variant="btn" onClick={handleBookService}>
+            Book Now
           </Button>
         </Card.Body>
-        <Card.Footer className="text-muted">medicare</Card.Footer>
       </Card>
     </div>
   );

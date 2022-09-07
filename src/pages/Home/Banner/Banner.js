@@ -1,6 +1,7 @@
 import React from "react";
 import "./Banner.css";
-import bannerImage from "../../../assets/images/result.svg";
+import bannerImage from "../../../assets/images/banner/bannernew.png";
+
 const Banner = () => {
   return (
     <div>
@@ -10,14 +11,14 @@ const Banner = () => {
         </div>
 
         <div className="content">
-          <h3>stay safe, stay healthy</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sed
-            autem vero? Magnam, est laboriosam!
-          </p>
-          <a href="#" className="btn">
+          <h3>
+            <span className="banner-text">Stay healthy</span>,
+            <span className="text-success"> Stay safe</span>
+          </h3>
+          <h5>Good Health is key to all success!</h5>
+          <a href="doctors" className="btn">
             {" "}
-            contact us <span className="fas fa-chevron-right"></span>{" "}
+            Doctors <span className="fas fa-chevron-right"></span>{" "}
           </a>
         </div>
       </section>

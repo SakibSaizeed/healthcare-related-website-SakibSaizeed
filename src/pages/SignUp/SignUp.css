@@ -1,7 +1,9 @@
 .form-container {
     background: honeydew;
+    /* background-image: url("../../assets/images/doctorcanva.svg"); */
     display: grid;
     justify-content: center;
-    font-weight: 700;
-    margin-top: 50px;
+    margin-top: 8rem;
+     height:auto;
+
 }

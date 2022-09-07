@@ -16,7 +16,7 @@ const About = () => {
           </div>
 
           <div className="content">
-            <h3>we take care of your healthy life</h3>
+            <h3>We take care of your healthy life</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
               ducimus, quod ex cupiditate ullam in assumenda maiores et culpa

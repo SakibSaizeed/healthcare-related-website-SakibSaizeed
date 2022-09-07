@@ -1,24 +1,19 @@
-/*      Flexbox       */
+/*     service details container       */
+
 .component-container {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    padding: 1rem 0;
+    padding: 0rem 0;
+    width: 80%;
+    margin: 8rem auto;
+    border: 2px solid teal;
+    text-align: center;
+    background-color: azure;
 }
 
-/*      Flex items      */
-.container-block {
-    padding: 3rem;
-    max-width: 100%;
-    min-height: 400px;
+.service-img {
+    width: 20rem;
+    margin-bottom: 0px;
 }
-
-.block-1 {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background-color: honeydew;
-}
-
-
