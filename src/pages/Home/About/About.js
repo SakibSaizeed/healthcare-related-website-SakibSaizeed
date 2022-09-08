@@ -17,21 +17,19 @@ const About = () => {
 
           <div className="content">
             <h3>We take care of your healthy life</h3>
+            <p>We provide a complete health care solution. </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
-              ducimus, quod ex cupiditate ullam in assumenda maiores et culpa
-              odit tempora ipsam qui, quisquam quis facere iste fuga, minus
-              nesciunt.
+              We follow The primary health care approach is both a philosophy of
+              health care and an approach to providing health services, and
+              embraces five types of care: promotive; preventive; curative;
+              rehabilitative; and supportive.
+              <h3>
+                This a Complete demo web solution for healthCare service
+                developed by Mohammad Nazmus Sakib (Saizeed), Who is a Software
+                Engineer, wants to do better solution for people around the
+                world{" "}
+              </h3>
             </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
-              vero ipsam laborum porro voluptates voluptatibus a nihil
-              temporibus deserunt vel?
-            </p>
-            <a href="#" className="btn">
-              {" "}
-              learn more <span className="fas fa-chevron-right"></span>{" "}
-            </a>
           </div>
         </div>
       </section>
