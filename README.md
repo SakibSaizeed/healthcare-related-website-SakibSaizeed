@@ -12,7 +12,8 @@
      * Environment variable for securing firebase
    * React Bootstrap 
        * Responsive on samller mobile devices
-   * Custom Hooks as DRY method
+   * Custom Hooks as DRY method 
+   * Clean Code
    * Context API
    * Custom CSS
    
