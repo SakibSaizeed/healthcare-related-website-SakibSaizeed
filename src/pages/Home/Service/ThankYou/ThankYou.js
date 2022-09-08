@@ -19,19 +19,16 @@ function ThankYou() {
         <h1>Our terms And Conditions</h1>
 
         <p className="terms">
-          This Agreement applies to all services made available by medicare on
-          the WebsiteThe Services may change from time to time, at the sole
-          discretion of medicare, and the Agreement will apply to your visit to
-          and your use of the Website to avail the Service, as well as to all
-          information provided by you on the Website at any given point in
-          time.This Agreement defines the terms and conditions under which you
-          are allowed to use the Website and describes the manner in which we
-          shall treat your account while you are registered as a member with us.
-          You acknowledge that you will be bound by this Agreement for availing
-          any of the Services offered by us. If you do not agree with any part
-          of the Agreement, please do not use the Website or avail any
-          Services.Your access to use of the Website and the Services will be
-          solely at the discretion of medicare by the developer SakibSaizeed.
+          This is demo Agreement applies to all services made available by
+          medicare on the WebsiteThe Services may change from time to time, at
+          the sole discretion of medicare, and the Agreement will apply to your
+          visit to and your use of the Website to avail the Service, as well as
+          to all information provided by you on the Website at any given point
+          in time.This Agreement defines the terms and conditions under which
+          you are allowed to use the Website and describes the manner in which
+          we shall treat your account while you are registered as a member with
+          us. And Finally Thank you for visiting the Web APP from the core of
+          this site Developer SakibSaizeed. Wish You All the best.
         </p>
         <Button variant="success" className="btn" onClick={handleShow}>
           Click To Confirm

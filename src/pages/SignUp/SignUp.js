@@ -16,7 +16,7 @@ const SignUp = () => {
   const navigate = useNavigate();
   const [createUserWithEmailAndPassword, user, loading, error] =
     useCreateUserWithEmailAndPassword(auth);
-    const [signInWithGoogle, user1, loading1, error1] = useSignInWithGoogle(auth);
+  const [signInWithGoogle, user1, loading1, error1] = useSignInWithGoogle(auth);
   const handleSignUp = () => {
     createUserWithEmailAndPassword(email, password, confirmPass);
   };
@@ -79,7 +79,7 @@ const SignUp = () => {
         </Form.Group>
         <Button
           onClick={() => handleSignUp(email, password, confirmPass)}
-          className="-login"
+          className="text-center"
         >
           {" "}
           Sign Up
@@ -88,9 +88,13 @@ const SignUp = () => {
         <p className="text-info">
           Already have an account? <Link to="/login">Log in</Link>
         </p>
-        <Button variant="outline-success" size="sm" className="btn-login"
-           onClick={() => handleGoogle()}>
-        Login With Google
+        <Button
+          variant="outline-success"
+          size="sm"
+          className="btn-login"
+          onClick={() => handleGoogle()}
+        >
+          Login With Google
         </Button>
       </Form>
     </div>

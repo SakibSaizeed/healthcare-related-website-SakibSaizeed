@@ -1,24 +1,19 @@
 import React from "react";
-import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import "./DetailService.css";
+import useServices from "../../../../hooks/useServices";
 
 const DetailService = () => {
   let { serviceId } = useParams();
   let navigate = useNavigate();
-  let url = `/services.json`;
-  let [services, setServices] = useState([]);
-  let display = {};
+  let [services] = useServices([]);
+  let display = {}; //declaring object variable for storing matched data by id
   const handleBookService = () => {
     navigate("/thankyou");
   };
-  useEffect(() => {
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => setServices(data));
-  }, []);
+
   //console.log(services);
   display = services.find((d) => d.id === parseInt(serviceId));
 

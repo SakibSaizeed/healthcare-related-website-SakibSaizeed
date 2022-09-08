@@ -15,6 +15,7 @@ import Doctors from "./pages/Home/Doctors/Doctors";
 import ThankYou from "./pages/Home/Service/ThankYou/ThankYou";
 import DoctorProfile from "./pages/Home/Doctors/DoctorProfile/DoctorProfile";
 import Appointment from "./pages/Shared/Appointment/Appointment";
+import VisitorInfo from "./pages/Home/VisitorInfo/VisitorInfo";
 function App() {
   return (
     <div className="App">
@@ -49,6 +50,7 @@ function App() {
         <Route path="/signup" element={<SignUp />}></Route>
         <Route path="/thankyou" element={<ThankYou />}></Route>
         <Route path="/appointment" element={<Appointment />}></Route>
+        <Route path="/visitorinfo" element={<VisitorInfo />}></Route>
 
         <Route path="*" element={<PageNotFound />}></Route>
       </Routes>

@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { signOut } from "firebase/auth";
 import auth from "../../../firebase/firebase.init";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { Navbar,Button } from "react-bootstrap";
+import { Navbar, Button } from "react-bootstrap";
 const Header = () => {
   const navigate = useNavigate();
 
@@ -26,22 +26,22 @@ const Header = () => {
           <Link to="/home" style={{ textDecoration: "none" }}>
             Home
           </Link>
-          <Link style={{ textDecoration: "none" }} to="/services">
-            Services
-          </Link>
           <Link style={{ textDecoration: "none" }} to="/about">
             About Us
+          </Link>
+          <Link style={{ textDecoration: "none" }} to="/services">
+            Services
           </Link>
           <Link style={{ textDecoration: "none" }} to="/doctors">
             Our Doctors
           </Link>
         </nav>
         {user ? (
-          <Button onClick={logoutMedicare} variant="outline-warning" >
+          <Button onClick={logoutMedicare} variant="outline-warning">
             Log Out
           </Button>
         ) : (
-          <Link className="btn"  Link to="login">
+          <Link className="btn" Link to="login">
             Login
           </Link>
         )}

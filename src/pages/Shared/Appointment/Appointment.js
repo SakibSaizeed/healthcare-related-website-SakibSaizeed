@@ -57,7 +57,7 @@ const Appointment = () => {
         <Button
           variant="primary"
           type="submit"
-          className="form-title"
+          className="form-btn"
           onClick={handleCreateUser}
         >
           Submit

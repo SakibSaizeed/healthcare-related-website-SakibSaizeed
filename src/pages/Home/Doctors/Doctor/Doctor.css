@@ -4,7 +4,16 @@
     text-align: center;
     /* box-shadow: 3rem 4rem 30 1rem rgba(32, 71, 13, 0.9); */
     /* box-shadow: 8px 8px 8px #faea10; */
-    filter: drop-shadow(4px 4px 4px #c7bcbc);
+    filter: drop-shadow(1px 1px 1px #c7bcbc);
+}
+
+.doctor-card:hover {
+    position: relative;
+    border-radius: 100%;
+    text-align: center;
+    /* box-shadow: 3rem 4rem 30 1rem rgba(32, 71, 13, 0.9); */
+    /* box-shadow: 8px 8px 8px #faea10; */
+    filter: drop-shadow(22px 30px 20px #a2aeac);
 }
 
 .doctor-card img {

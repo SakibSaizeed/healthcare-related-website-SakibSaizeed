@@ -1,7 +1,7 @@
 .appointmentform {
     width: 50%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 8rem;
     border: 1px solid #95a0a7;
     box-sizing: border-box;
     border-radius: 8px;
@@ -9,10 +9,10 @@
     justify-content: center;
 }
 
-.form-title {
+.form-btn {
     font-size: 1.4rem;
     color: #2a414f;
-    margin-left: 40px;
+    margin: auto auto;
 }
 
 .input-group {
