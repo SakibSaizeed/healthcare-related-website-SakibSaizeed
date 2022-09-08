@@ -4,7 +4,7 @@ const PageNotFound = () => {
   return (
     <div className="text-center">
       <h1>404</h1>
-      <img src={notfound} alt="" srcset="" />
+      <img src={notfound} alt="" />
     </div>
   );
 };

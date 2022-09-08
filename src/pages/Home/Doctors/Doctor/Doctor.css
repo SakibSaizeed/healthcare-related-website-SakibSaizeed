@@ -2,18 +2,19 @@
     position: relative;
     border-radius: 100%;
     text-align: center;
+    margin: 2rem 2rem;
     /* box-shadow: 3rem 4rem 30 1rem rgba(32, 71, 13, 0.9); */
     /* box-shadow: 8px 8px 8px #faea10; */
-    filter: drop-shadow(1px 1px 1px #c7bcbc);
+    /* filter: drop-shadow(1px 1px 1px #c7bcbc); */
 }
 
 .doctor-card:hover {
     position: relative;
     border-radius: 100%;
     text-align: center;
-    /* box-shadow: 3rem 4rem 30 1rem rgba(32, 71, 13, 0.9); */
-    /* box-shadow: 8px 8px 8px #faea10; */
-    filter: drop-shadow(22px 30px 20px #a2aeac);
+    transform: scale(1.1);
+    transition: transform 3s;
+    filter: drop-shadow(2px 14px 4px);
 }
 
 .doctor-card img {
