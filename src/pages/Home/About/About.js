@@ -23,12 +23,12 @@ const About = () => {
               health care and an approach to providing health services, and
               embraces five types of care: promotive; preventive; curative;
               rehabilitative; and supportive.
-              <h3>
+              <p>
                 This a Complete demo web solution for healthCare service
                 developed by Mohammad Nazmus Sakib (Saizeed), Who is a Software
                 Engineer, wants to do better solution for people around the
                 world{" "}
-              </h3>
+              </p>
             </p>
           </div>
         </div>
